@@ -1,0 +1,22 @@
+{
+  "db": {
+    "local": {
+      "path": "snmp.db"
+    },
+    "clickhouse": {
+      "address": "127.0.0.1",
+      "port": 8123,
+      "table": "snmp.table"
+    }
+  },
+  "snmp": [
+    {
+      "community": "ISPNet",
+      "address": "blacklight.net.ua"
+    },
+    {
+      "community": "Incubus",
+      "address": "192.168.59.8"
+    }
+  ]
+}
